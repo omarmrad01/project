@@ -1,0 +1,156 @@
+header{
+    background-color: rgb(243, 243, 247);
+    width:  70%;
+    /* position: fixed; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    height:90px;
+    width: 180px;
+
+}
+#video{
+    width: 95%;
+    height: auto;
+    padding-bottom: 20%;
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: blueviolet;
+}
+.photo{
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-wrap: wrap;
+}
+.p{
+    position: relative;
+    top: 0;
+    left: 0;
+     flex-wrap: wrap;
+}
+.add{
+    display: flex;
+    align-items: center;
+   margin: 0;
+    align-items: center;
+background-color: aquamarine;
+justify-content: space-between;
+padding: 2rem;
+}
+
+
+.add a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 1rem;
+background-color: darkred;
+transform: scale(1);
+transition: transform 0.5s ease-in-out;
+}
+.add a:hover{
+
+transform: scale(1.2);
+}
+.ph{
+    margin-top:10% ;
+    display: flex;
+    justify-content: space-between;
+}
+.f{
+    background-color: fuchsia;
+    align-items: center;
+    text-align: center;
+
+}
+.f h1{
+    color: aqua;
+    height: 80px;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+   justify-content: space-between;
+}
+.m{
+    background-color: blue;
+}
+.m h1{
+    height: 80px;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.i{
+    background: aqua;
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+#click{
+    color: brown;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 1rem;
+  }
+  .img_product{
+    max-width: 30vw;
+    max-height: 30vh;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .containers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+
